@@ -176,11 +176,6 @@ The intended deployment setup is:
 | Backend | Render |
 | Database | Neon PostgreSQL |
 
-See the deployment notes here:
-
-```txt
-docs/DEPLOYMENT.md
-```
 
 ## Notes
 
