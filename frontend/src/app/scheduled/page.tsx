@@ -47,7 +47,7 @@ function formatDate(value?: string | null) {
 }
 
 function scoreColor(score?: number | null) {
-  if (score === null || score === undefined) return "default" as const;
+  if (score === null || score === undefined) return "primary" as const;
   if (score >= 80) return "success" as const;
   if (score >= 55) return "warning" as const;
   return "error" as const;

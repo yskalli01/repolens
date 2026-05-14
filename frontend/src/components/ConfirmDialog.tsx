@@ -40,10 +40,12 @@ export default function ConfirmDialog({
       onClose={loading ? undefined : onClose}
       maxWidth="xs"
       fullWidth
-      PaperProps={{
-        sx: {
-          borderRadius: 4,
-          p: 0.5,
+      slotProps={{
+        paper: {
+          sx: {
+            borderRadius: 4,
+            p: 0.5,
+          },
         },
       }}
     >

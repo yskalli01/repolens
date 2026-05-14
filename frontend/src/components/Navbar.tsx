@@ -164,7 +164,15 @@ export default function Navbar() {
         anchor="right"
         open={mobileOpen}
         onClose={() => setMobileOpen(false)}
-        PaperProps={{ sx: { width: 300, p: 1.5, bgcolor: "background.paper" } }}
+        slotProps={{
+          paper: {
+            sx: {
+              width: 300,
+              p: 1.5,
+              bgcolor: "background.paper",
+            },
+          },
+        }}
       >
         <Box sx={{ p: 1.5 }}>
           <Typography variant="h6" sx={{ fontWeight: 900 }}>
